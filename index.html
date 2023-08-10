@@ -6,6 +6,7 @@
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/fonts/stylesheet.css" />
+    <script src="./main.js"></script>
   </head>
   <body>
     <div id="main" class="flex w-screen h-screen">
@@ -113,6 +114,7 @@
               <input
                 type="password"
                 id="password"
+                oninput="validatePassword()"
                 class="border-2 rounded w-60"
                 required
               />
@@ -125,9 +127,11 @@
               <input
                 type="password"
                 id="password-confirm"
+                oninput="validatePassword()"
                 class="border-2 rounded w-60"
                 required
               />
+              <div id="validation-message" class="text-xs text-red-600"></div>
             </div>
           </form>
         </div>
