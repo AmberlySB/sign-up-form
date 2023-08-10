@@ -1160,6 +1160,10 @@ video {
   padding-right: 1rem;
 }
 
+.pl-12 {
+  padding-left: 3rem;
+}
+
 .font-\[norse-bold\] {
   font-family: norse-bold;
 }
