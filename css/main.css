@@ -1293,3 +1293,9 @@ video {
     width: 58.333333%;
   }
 }
+
+@media (min-width: 1280px) {
+  .xl\:w-7\/12 {
+    width: 58.333333%;
+  }
+}
